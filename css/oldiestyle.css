@@ -1,0 +1,834 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin: 0px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------- START CODING ---------------------------- */
+
+
+/* ----------------- SKIP LINKS ------------------ */
+
+#skip a, #skip a:visited {
+	position:absolute;
+	left:0px;
+	top:-500px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+
+#skip a:active, #skip a:hover, #skip a:focus {
+	position:static;
+	width:auto;
+	height:auto;
+} 
+
+
+/* ---------------------------------- GENERAL STYLING ---------------------------------------------- */
+
+body {
+	background: #e9e9e9;
+}
+
+@font-face {
+    font-family: 'dashedlinesregular';
+    src: url('../fonts/dashedline-webfont.eot');
+    src: url('../fonts/dashedline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dashedline-webfont.woff') format('woff'),
+         url('../fonts/dashedline-webfont.ttf') format('truetype'),
+         url('../fonts/dashedline-webfont.svg#dashedlinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#about, 
+#portfolio, 
+#whatido, 
+#blog, 
+#contact {
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+#about,
+#contact {
+	border-bottom: 2px dashed #919191;
+}
+
+#about,
+#whatido,
+#contact {
+	overflow: hidden;
+}
+
+
+
+header, 
+#blog, 
+#about #whatido, 
+footer {
+	background: #e9e9e9 url('../images/knitting250px.png');
+}
+
+#about h2,
+#portfolio h2,
+#blog h2,
+#contact h2 {
+	display: block;
+	width: 9.5em;
+	
+	font-family: 'dashedlinesregular', sans-serif;
+	color: #309682;
+	font-size: 3em;
+	line-height: 1.75em;
+	text-transform: uppercase;
+	text-align: center;
+	
+	background: none;
+
+	margin: 1.7em auto 1.4em auto;
+}
+
+
+h3 {
+	font-family: 'Lobster Two', cursive;
+	color: #919191;
+	font-size: 2em;
+}
+
+
+.green {
+	color: #309682;
+}
+
+
+
+/* --------------------------------------- NAVIGATION ----------------------------------------------- */
+
+nav {
+	width: 100%;
+	height: 2.5em;
+	position: fixed;
+	background: #0F0F0F;
+
+	text-align: right;
+
+	z-index: 2;
+}
+
+nav strong {
+	display: none;
+	color: #e9e9e9;
+	font-size: 2em;
+	line-height: 1.3em;
+	padding-right: 0.25em;
+}
+
+nav strong:hover {
+  	cursor: pointer;
+  	color: #309682;
+}
+
+nav li {
+	display: inline;
+	font-family: 'dashedlinesregular';
+	font-size: 1.2em;
+	color: #e9e9e9;
+	text-transform: uppercase;
+	line-height: 2em;
+
+	padding: 1em;
+}
+
+nav li a {
+	display: inline-block;
+}
+
+nav li a:link,
+nav li a:visited,
+nav li a:active {
+	color: #e9e9e9; 
+	text-decoration: none;
+}
+
+nav li a:hover,
+nav li a:focus {
+	color: #309682;
+}
+
+
+
+/* -------------------------------------- HEADER --------------------------------------------- */
+
+header {
+	padding: 2.5em 0 2em 0;
+}
+
+img#largeheader {
+	display: block;
+	width: 90%;
+	max-width: 100%;
+	
+	z-index: 0;
+
+	margin: 1em auto;
+	padding: 0 0 0 0;
+}
+
+img#smallheader {
+	display: none;
+}
+
+header h1 {
+	text-indent: -9999px;
+}
+
+header h2#emmawinston {
+	font-family: 'dashedlinesregular', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	line-height: 2em;
+
+	z-index: 1;
+
+	padding: 0.1em;
+	margin: 2em auto -1.2em auto;
+}
+
+header h2#freelance a {
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.6em;
+
+	padding: 1.2em;
+	margin: 0 auto 2em auto;
+}
+
+header h2#emmawinston, 
+header h2#freelance a {
+	display: block;
+	position: relative;
+	width: 12em;
+
+	color: #919191;
+	text-align: center;
+}
+
+
+h2#freelance a:link,
+h2#freelance a:visited,
+h2#freelance a:active {
+	text-decoration: none;
+	color: #919191;
+}
+
+h2#freelance a:active,
+h2#freelance a:hover,
+h2#freelance a:focus {
+	position: relative;
+  	top: 1px;
+}
+
+
+/*  ------------------------------------------ ABOUT ----------------------------------------------- */
+
+#about {
+	padding: 0.4em 0 0 0;
+}
+
+#about h3 {
+	padding: 0.4em 1.75em;
+}
+
+#about #biography {
+	background: #e9e9e9;
+
+	padding: 0.6em 0 0.5em 0;
+}
+
+#about #biography p.maintext {
+	text-align: justify;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+	color: #0F0F0F;
+	line-height: 1.3em;
+
+	padding: 0 3em 0.85em 3em;
+}
+
+#about #biography img#me {
+	width: 22%;
+	max-width: 100%;
+	float: right;
+
+	background: #e9e9e9;
+	border: 2px #919191 dashed;
+
+    padding: 0.25em;
+   	margin: 0.4em 3em 0.4em 3em
+}
+
+#about #biography #cvbutton {
+	width: 15em;
+	max-width: 95%;
+
+	margin: 3em auto 4em auto;
+}
+
+#about #biography #cvbutton h4 {
+	font-family: 'dashedlinesregular', sans-serif;
+	color: #e9e9e9;
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+} 
+
+#about #biography #cvbutton a {
+	display: block;
+	background: #309682;
+
+	padding: 0.25em 0.7em;
+}
+
+#about #biography #cvbutton a:link,
+#about #biography #cvbutton a:visited {
+	color: #e9e9e9; 
+	text-decoration: none;
+}
+
+#about #biography #cvbutton a:active,
+#about #biography #cvbutton a:hover,
+#about #biography #cvbutton a:focus {
+	position: relative;
+  	top: 1px;
+}
+
+
+
+/* --------------------------------- SKILLS LIST ----------------------------- */
+
+#whatido {
+	clear: both;
+
+	padding: 0 0 3em 0;
+}
+
+#tools, 
+#skills {
+	width: 48%;
+
+	float: left;
+	text-align: left;
+
+	margin-top: 4em;
+}
+
+#tools {
+	border-right: 2px dashed #424242;
+}
+
+#toolswrapper,
+#skillswrapper {
+	height: 16em;
+}
+
+ul#toolslist, 
+ul#skillslist {
+	float: left;
+
+	margin: 1.5em 0 0 0;
+}
+
+ul { list-style-type:none; }
+
+ ul#toolslist li, 
+ ul#skillslist li {
+ 	display: list-item;
+ 	background: url('../images/greenbullet.png') no-repeat 0 0.55em; 
+    padding-left: 0.8em;
+    margin-left: 1.5em;
+
+	font-family: 'Lobster Two', cursive;
+	color: #424242;
+	font-size: 2em;
+	line-height: 1.1em;
+}
+
+
+
+/* -------------------------------------- TOOLS/SKILLS LIST STYLING ----------------------------------- */
+
+
+
+/* -------------------------------------SKILLS LIST SPECIFIC STYLING----------------------------------- */
+
+
+
+
+/* -------------------------------------- BANNERS STYLING ----------------------------------------- */
+
+p.workingwith, 
+p.makesmehappy, 
+p.best {
+	font-family: 'dashedlinesregular', sans-serif;
+	font-size: 2.8em;
+	text-transform: uppercase;
+}
+
+p.workingwith {
+	line-height: 0.95em;
+
+	padding: 0 0 0.75em 1.28em;
+}
+
+p.best, 
+p.makesmehappy {
+	width: 100%;
+	height: 2.3em;
+
+	text-align: center;
+	line-height: 1em;
+}
+
+p.best {
+
+	padding: 1.5em 0 0.2em 0;
+	margin: 0.2em 0 0 0.2em;
+}
+
+
+p.makesmehappy {
+
+	padding: 1.5em 0em 0.2em 0;
+	margin: 0.2em 0em 0 -1em;
+}
+
+
+
+/* ------------------------------------------ PORTFOLIO ------------------------------------------------ */
+
+#portfolio {
+	text-align: center;
+	min-height: 100%;
+	height: 100%;
+
+	padding: 0.4em 0 0 0;
+}
+
+#portfolio h3 {
+	width: 95%;
+
+	padding: 0 0 1.5em 0;
+	margin: 0 auto;
+}
+
+ul#work {
+	width: 95%;
+	display: block;
+	overflow: hidden;
+
+	margin: 0.7em auto 4.5em auto;
+}
+
+ul#work li,
+ul#work li .caption {
+	width: 300px;
+	max-width: 100%;
+}
+
+ul#work li {
+	display: -moz-inline-stack;
+	display: inline-block;	
+		/* IE fix */
+	zoom: 1;
+    	*display: inline; 
+    	/* IE fix */
+	position: relative;
+	overflow: hidden;
+
+	z-index: 0;
+	
+	padding: 1em;
+}
+
+ul#work li .caption {
+  display: block;
+  position: relative;
+  text-align: center;
+
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.2em;
+  font-size: 1.2em;
+  color: #424242;
+
+  margin: 0 auto;
+}
+
+ul#work li a:link,
+ul#work li a:visited,
+ul#work li a:active,
+ul#work li a:hover,
+ul#work li a:focus {
+	color: #424242;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------- BLOG ------------------------------------------------ */
+
+#blog {
+	padding: 0.4em 0 3em 0;
+	height: 100%;
+	min-height: 100%;
+}
+
+p.blogview {
+	width: 10.45em;
+	float: left;
+
+	font-family: 'dashedlinesregular', sans-serif;
+	font-size: 3em;
+	line-height: 2.2em;
+	text-transform: uppercase;
+	text-decoration: ;
+
+	padding-left: 1.5em;
+	margin-top: -0.5em;
+}
+
+p.blogview a {
+	padding: 0.7em;
+}
+
+p.blogview a:link,
+p.blogview a:visited {
+	text-decoration: none;
+	color: #424242;
+}
+
+p.blogview a:active,
+p.blogview a:hover,
+p.blogview a:focus  {
+	text-decoration: none;
+	color: #309682;
+}
+
+p.clickthrough {
+	display: block;
+	height: 4em;
+
+	font-family: 'Lobster Two', cursive;
+	color: #919191;
+	font-size: 1.5em;
+	line-height: 1em;
+
+	text-align: right;
+
+	padding: 1em 2em 0 1em;
+	margin-top: -1em;
+}
+
+
+/* FEEDBURNER SPECIFIC SELECTORS */
+
+#creditfooter {
+	display: none;
+}
+
+.feedburnerFeedBlock {
+	text-align: center;
+
+	padding: 2em 3em 1em 3em;
+	margin: 0 auto;
+}
+
+.feedburnerFeedBlock ul li {
+	width: 250px;
+	height: 200px;
+	max-width: 100%;
+
+	display: -moz-inline-stack;
+	display: inline-block;	
+		/* IE fix */
+	zoom: 1;
+    	*display: inline; 
+    	/* IE fix */
+	position: relative;
+	overflow: hidden;
+
+	z-index: 0;
+	
+	margin: 1.2em;
+
+	overflow: hidden;
+	background: #e9e9e9;
+
+	vertical-align: top;
+	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	padding: 2em 1em 1.5em 1em;
+}
+
+.feedburnerFeedBlock ul li a:link,
+.feedburnerFeedBlock ul li a:visited,
+.feedburnerFeedBlock ul li a:active,
+.feedburnerFeedBlock ul li a:hover,
+.feedburnerFeedBlock ul li a:focus {
+	text-decoration: none; 
+	color: #309682;
+}
+
+.feedburnerFeedBlock .headline,
+.feedburnerFeedBlock .date {
+	font-family: 'Lobster Two', cursive;
+}
+
+.feedburnerFeedBlock .headline {
+	font-size: 2em;
+}
+
+.feedburnerFeedBlock .date {
+	color: #919191;
+	font-size: 1em;
+
+	padding-top: 1.5em;
+}
+
+.feedburnerFeedBlock div {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+
+	text-align: left;
+
+	padding: 1.5em 0.75em 1em 1.2em;
+}
+
+noscript p {
+	display: block;
+	clear: both;
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+	color: #090909;
+	text-align: center;
+	padding: 1.5em 0 0 0;
+
+}
+
+noscript p a:link, 
+noscript p a:visited {
+	color: #919191;
+}
+
+noscript p a:active, 
+noscript p a:hover, 
+noscript p a:focus {
+	color: #309682;
+}
+
+
+/*-----------------------------------CONTACT----------------------------------------*/
+
+#contact {
+	padding: 0.4em 0 4em 0;
+	height: 100%;
+	min-height: 100%;
+}
+
+/* SOCIAL NETWORKS SELECTORS */
+
+#contact #socialnetworks {
+	width: 48%;
+	float: left;
+}
+
+#contact #socialnetworks h3 {
+	padding: 0.4em 0 0.4em 1.75em;
+}
+
+#contact #socialnetworks li a {
+	display: block;
+
+	font-family: 'Lobster Two', cursive;
+	color: #424242;
+	font-size: 1.5em;
+	line-height: 1.2em;
+
+	padding: 0.45em 2em 0.45em 3.5em;
+	margin: 1.7em 0 1.55em 2.5em;
+}
+
+#contact #socialnetworks ul li a {
+	width: 2.5em;
+}
+
+ul li#linkedin a { 
+	background: #E9E9E9 url('../images/linkedin_icon_small.png') no-repeat top left;
+} 
+
+ul li#twitter a { 
+	background: #E9E9E9 url('../images/twitter_icon_small.png') no-repeat top left;
+} 
+
+ul li#flickr a { 
+	background: #E9E9E9 url('../images/flickr_icon_small.png') no-repeat top left;
+}
+
+
+#contact #socialnetworks a:link, 
+#contact #socialnetworks a:visited, 
+#contact #socialnetworks a:active, 
+#contact #socialnetworks a:hover, 
+#contact #socialnetworks a:focus {
+	color:#424242; 
+	text-decoration: none;
+}
+
+
+/* CONTACT FORM SELECTORS */
+
+#contact #contactform {
+	width: 48%;
+	float: left;
+
+	text-align: left;
+}
+
+
+#contact #contactform h3 {
+	padding: 0.4em 3.5em 0.4em 0;
+}
+
+#contact #contactform #formwrapper {
+	padding-right: 3.5em;
+}
+
+
+#contact #contactform label {
+	display: inline-block;
+
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.3em;
+
+	padding: 1em 0.2em 0.2em 0;
+}
+
+#contact #contactform input {
+	padding: 0.2em 0 0.2em 0;
+}
+
+
+#contact #contactform textarea {
+	padding: 0.2em 0 0 0.2em;
+}
+
+#contact #contactform input,
+#contact #contactform textarea {
+	width: 100%;
+}
+
+#contact #contactform input, 
+#contact #contactform textarea {
+	font-family: 'Cabin', sans-serif;
+	font-size: 1.2em;
+
+	background: #e9e9e9;
+	border: 2px dashed #919191;
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+    box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+}
+
+
+#contact #contactform input[type=submit] {
+	display: block;
+
+	width: 9em;
+	max-width: 95%;
+	-webkit-appearance: none;
+
+	font-family: 'dashedlinesregular', sans-serif;
+	text-transform: uppercase;
+	font-size: 2em;
+	color: #e9e9e9;
+
+	background: #309682;
+	border-radius: 10px;
+	border: 0;
+
+	padding: 0.05em;
+	margin: 1em auto;
+}
+
+
+/* -------------------------------------------------- FOOTER -------------------------------------------- */
+
+footer {
+	width: 100%;
+
+	padding: 2em;
+}
+
+footer h4 {
+	font-family: 'dashedlinesregular', sans-serif;
+	text-transform: uppercase;
+}
+
+
+/* ---------------------------------------- WORK PAGES ------------------------------- */
+
+
+

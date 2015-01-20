@@ -1,0 +1,764 @@
+/*-------------------------------------MEDIA QUERY STYLESHEET-------------------------------------*/
+@media screen and (max-width: 1200px) {
+	/* HEADER */
+
+	/* ABOUT */
+	ul#toolslist,
+	ul#skillslist {
+		font-size: 0.95em;
+
+		padding-left: 0;
+	}
+
+	#toolswrapper, 
+	#skillswrapper {
+		width: 30em;
+
+		padding-left: 0;
+	}
+
+	p.best, 
+	p.makesmehappy, 
+	p.workingwith {
+		font-size: 2.6em;
+	}
+
+	p.best {
+		padding: 1.5em 0.5em 0.2em 0.5em;
+		margin-left: 0.1em;
+	}
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width: 1118px) {
+	/* HEADER */
+	/* ABOUT */
+	ul#toolslist, ul#skillslist {
+		font-size: 0.85em;
+	}
+
+	#toolswrapper, #skillswrapper {
+		width: 27em;
+	}
+
+	p.best, 
+	p.makesmehappy, 
+	p.workingwith {
+		font-size: 2.4em;
+	}
+
+	p.best {
+		padding: 1.5em 0.5em 0.2em 0.5em;
+		margin-left: 0.1em;
+	}
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width: 1000px) {
+	/* HEADER */
+
+	/* ABOUT */
+	#about #biography img#me {
+		width: 30%;
+	}
+
+	ul#toolslist, ul#skillslist {
+		font-size: 0.8em;
+	}
+
+	#toolswrapper, #skillswrapper {
+		width: 25.5em;
+	}
+
+	p.best, 
+	p.makesmehappy, 
+	p.workingwith {
+		font-size: 2.2em;
+	}
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width: 950px) {
+	/* HEADER */
+	header h2#emmawinston {
+		margin-top: 2.5em;
+	}
+
+	/* ABOUT */
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width: 934px) {
+	/* HEADER */
+
+	/* ABOUT */
+	#tools, 
+	#skills {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+
+	float: none;
+	}
+
+	#tools {
+		border-right: none;
+		border-bottom: 2px dashed #424242;
+
+		padding-bottom: 2em;
+	}
+
+	#toolswrapper, 
+	#skillswrapper {
+		width: 32em;
+
+		margin: 1em auto;
+	}
+
+	#toolswrapper {
+		padding-top: 0.5em;
+	}
+
+	#skillswrapper {
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+
+	ul#skillslist, 
+	ul#toolslist {
+		display: block;
+		font-size: 1em;
+	}
+
+	p.best, 
+	p.makesmehappy, 
+	p.workingwith {
+		font-size: 2.8em;
+	}
+
+	p.workingwith {
+		padding-bottom: 0;
+	}
+
+	p.makesmehappy {
+		display: block;
+		max-width: 80%;
+
+		padding: 1.9em 1em 0.5em 0.3em;
+	}
+
+	p.best {
+		max-width: 80%;
+		
+		padding: 1.9em 1.3em 0.5em 0.7em;
+		margin-left: 2em;
+	}
+
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+
+}
+
+@media screen and (max-width: 900px) {
+	/* HEADER */
+
+	/* ABOUT */
+	#about #biography img#me {
+		width: 35%;
+	}
+
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width:850px) {
+	/* HEADER */
+	/* ABOUT */
+	/* PORTFOLIO */
+
+	/* BLOG */
+	p.clickthrough {
+	padding-top: 0.3em;
+	}
+
+	/* CONTACT */
+}
+
+@media screen and (max-width:780px) {
+	/* HEADER */
+	img#largeheader {
+		width: 98%;
+	}
+
+	header h2#emmawinston {
+		margin-top: 3.2em;
+	}
+
+	/* ABOUT */
+	/* PORTFOLIO */
+
+	/* BLOG */
+	p.clickthrough {
+		padding-top: 0.1em;
+		padding-right: 0.5em;
+	}
+
+	/* CONTACT */
+
+	#contact #socialnetworks, 
+	#contact #contactform {
+	width: 90%;
+	display: block;
+
+	float: none;
+
+	text-align: left;
+
+	margin: 0 auto;
+	padding: 0;
+	}
+
+	#contact #socialnetworks {
+	padding-bottom: 2.5em;
+	}
+
+	#contact #socialnetworks h3, 
+	#contact #contactform h3 {
+	text-align: center;
+
+	padding: 0;
+	}
+
+	#contact #socialnetworks ul {
+	float: none;
+	}
+
+	#contact #socialnetworks li a {
+	margin-left: 0;
+	}
+
+	#contact #socialnetworks #socialwrapper {
+	width: 9em;
+
+	margin: 1.5em auto;
+	}
+
+	#contact #contactform #formwrapper {
+	width: 100%;
+
+	float: none;
+
+	padding: 1em 0 0 0;
+	margin: 0 auto;
+	}
+
+	#contact #contactform input, 
+	#contact #contactform textarea, 
+	#contact #contactform input[type=submit] {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+}
+
+@media screen and (max-width:730px) {
+	/* HEADER */
+	img#largeheader {
+		display: none;
+	}
+
+	img#smallheader {
+		width: 20em;
+		max-width: 95%;
+		display: block;
+
+		margin: 0 auto;
+	}
+
+	header h2#emmawinston {
+		max-width: 95%;
+		
+		font-size: 1.8em;
+
+		margin-top: 0.5em;
+	}
+
+	header h2#freelance a {
+		max-width: 100%;
+	}
+	/* ABOUT */
+	/* PORTFOLIO */
+
+	/* BLOG */
+	p.blogview {
+		display: block;
+
+		float: none;
+	}
+
+	p.clickthrough {
+		height: auto;
+
+		float: none;
+
+		text-align: center;
+
+		padding-top: 1em;
+		margin: 1em auto 0.2em auto;
+	}
+
+	/* CONTACT */
+}
+
+@media screen and (max-width: 680px) { 
+	/* HEADER */
+
+	/* ABOUT */
+	#about #biography p.maintext {
+	padding: 0 2em 0.85em 2em;
+	}
+
+	#about h3 {
+	padding: 0.4em 1.2em;
+	}
+
+	#toolswrapper,
+	#skillswrapper {
+		width: 25.5em;
+
+		padding-bottom: 1em;
+		margin: 1em auto;
+	}
+
+	ul#toolslist, 
+	ul#skillslist {
+		font-size: 0.8em;
+	}
+
+	p.workingwith, 
+	p.makesmehappy, 
+	p.best {
+		font-size: 2.2em;
+	}
+
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+@media screen and (max-width: 600px) {
+	/* HEADER */
+	nav strong {
+		display: block;
+	}
+
+	nav ul li {
+		display: none; 
+
+		text-align: center;
+		
+		padding: 0;
+		margin: 0;
+	
+	}
+
+	nav:hover li {
+		display: block;
+
+		text-align: center;
+		
+		margin: 0;
+	}
+
+	nav li a {
+		width: 95%;
+		display: block;
+		position: relative;
+		
+		background: #090909;
+		border-bottom: 1px #424242 dashed;
+		
+		padding: 0.5em;
+		margin: 0 auto;
+	}
+
+	img#smallheader {
+		width: 20em;
+	}
+
+	header h2#emmawinston {
+		margin-top: 0.2em;
+	}
+
+	header h2#freelance a {
+		max-width: 95%;
+		
+		padding: 1.2em 0.2em 1.2em 0.2em;
+		margin: 0 auto;
+	}
+
+	/* ABOUT */
+
+	/* PORTFOLIO */
+	#portfolio h3 {
+		padding: 0;
+		margin: 1em auto;
+	}
+
+	/* BLOG */
+	p.blogview {
+	width: 90%;
+	display: block;
+
+	text-align: center;
+	font-size: 2.8em;
+	line-height: 1em;
+
+	background: none;
+
+	padding: 0;
+	margin: -0.3em auto 0.5em auto;
+	}
+
+	p.blogview a {
+		padding: 0;
+		margin: 0;
+	}
+
+	p.clickthrough {
+		width: 90%;
+		height: auto;
+		display: block;
+
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	noscript p {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	/* CONTACT */
+}
+
+@media screen and (max-width: 545px) {
+	/* HEADER */
+
+	/* ABOUT */
+	p.workingwith,
+	p.best, 
+	p.makesmehappy {
+		max-width: 90%;
+		
+		font-size: 2em;
+	}
+
+	/* PORTFOLIO */
+	/* BLOG */
+	/* CONTACT */
+}
+
+
+@media screen and (max-width: 480px) {
+	#about h2,
+	#portfolio h2,
+	#blog h2,
+	#contact h2 {
+		width: 90%;
+		display: block;
+		
+		background: none;
+		text-align: center;
+
+		margin: 0.5em auto;
+	}
+
+	/* HEADER */
+
+	/* ABOUT */
+	#about h3 {
+		width: 40%;
+		text-align: center;
+		
+		margin: 0.5em auto;
+	}
+
+	#about #biography img#me {
+		width: 70%;
+		display: block;
+
+		float: none;
+
+		margin: 0 auto 1em auto;
+	}
+
+	#about #biography p.maintext {
+		display: block;
+
+		padding: 0 1em 0.85em 1em;
+	}
+
+	#tools {
+		padding-right: 0;
+	}
+
+	#toolswrapper {
+		max-width: 60%;
+	}
+
+	#skillswrapper {
+		max-width: 80%;
+	}
+
+	ul#toolslist,
+	ul#skillslist {
+	display: block;
+
+	float: none;
+
+	font-size: 0.7em;
+	
+	margin: 3em auto;
+	}
+
+	ul#toolslist li, 
+ 	ul#skillslist li {
+ 	display: list-item;
+ 	
+ 	padding: 0.2em;
+	}
+
+	ul#toolslist li:before,
+	ul#skillslist li:before {
+		content: '\2022'; /*Hexadecimal for Unicode bullet (&bull;) */ 
+		
+		color: #309682;
+		
+		padding: 0.2em 0.2em 0.2em 0.2em;
+	}
+
+	ul#toolslist li#html:after,
+	ul#toolslist li#css:after,
+	ul#toolslist li#photoshop:after,
+	ul#toolslist li#wordpress:after,
+	ul#skillslist li#webdesign:after,
+	ul#skillslist li#accessibility:after,
+	ul#skillslist .green {
+		content: none;
+
+		margin: 0;
+		padding: 0;
+	}
+
+	ul#toolslist li#css,
+	ul#toolslist li#jquery,
+	ul#toolslist li#illustrator,
+	ul#toolslist li#cmses,
+	ul#skillslist li#graphicdesign,
+	ul#skillslist li#webstandards,
+	ul#skillslist .mobile {
+ 		float: none;
+
+ 		text-align: left;
+ 		
+ 		margin: 0;
+	}
+
+	ul#toolslist li#cmses,
+	ul#skillslist li#RWD,
+	ul#skillslist li#webstandards {
+		color: #919191;
+	}
+
+	ul#toolslist li#wordpress,
+	ul#skillslist li#accessibility {
+		color: #424242;
+	}
+
+	p.workingwith,
+	p.best, 
+	p.makesmehappy {
+		display: block;
+		position: relative;
+		width: 90%;
+
+		line-height: 1em;
+		font-size: 2.2em;
+		text-align: center;
+
+		background: none;
+	
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	/* PORTFOLIO */
+	#portfolio h2 {
+		padding-left: 0;
+	}
+
+	/* BLOG */
+	p.blogview {
+		margin-top: 0.5em;
+	}
+
+	p.clickthrough {
+		margin: 0 auto 1.2em auto;
+	}
+
+	.feedburnerFeedBlock {
+ 		padding: 0;
+ 	}
+
+	.feedburnerFeedBlock ul li {
+		width: 65%;
+
+		padding: 1em 1em 1.5em 1em;
+		margin: 1em auto;
+	}
+
+	/* CONTACT */
+	#contact {
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	#contact h3 {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#contact #socialnetworks {
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	#contact #contactform {
+		width: 90%;
+		float: none;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	#contact #contactform #formwrapper {
+	width: 90%;
+	padding-right: 0;
+	}
+
+	#contact #contactform input,
+	#contact #contactform textarea {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	/* HEADER */
+	img#smallheader {
+		max-width: 60%;
+	}
+
+	header h2#emmawinston, 
+	header h2#freelance a {
+		background: none;
+	}
+
+	header h2#emmawinston {
+		font-family: 'Lobster Two', cursive;
+		line-height: 1em;
+		text-transform: none;
+
+		margin: 0.2em auto 0.5em auto;
+	}
+
+	header h2#freelance a {
+		margin: 0em auto;
+		padding: 0.6em 0 0 0;
+	}
+
+	/* ABOUT */
+	#skillswrapper {
+		max-width: 60%;
+	}
+
+	p.best {
+		padding-bottom: 0.8em;
+	}
+
+	/* PORTFOLIO */
+	ul#work li {
+		display: block;
+		width: 250px;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+
+	ul#work li img {
+		width: 250px;
+	}
+
+	ul#work li .caption {
+  		width: 250px;
+  		height: 150px;
+
+  		padding-top: 100px;
+  		padding-left: 0;
+
+  		left: 0px;
+	}
+
+	/* BLOG */
+	/* CONTACT */
+	#contact #contactform input[type=submit] {
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	#about h2,
+	#portfolio h2,
+	#blog h2,
+	#contact h2 {
+		font-size: 2.8em;
+	}
+
+	/* HEADER */
+	/* ABOUT */
+
+	/* PORTFOLIO */
+	ul#work li {
+		width: 200px;
+	}
+
+	ul#work li img {
+		width: 200px;
+	}
+
+	ul#work li .caption {
+  		width: 200px;
+  		height: 120px;
+
+  		padding-top: 80px;
+	}
+
+	/* BLOG */
+	/* CONTACT */
+	#contact #contactform input[type=submit] {
+		font-size: 1.6em;
+	}
+}
+
+/* ----------------------------------END MEDIA QUERY STYLESHEET--------------------- */
