@@ -208,8 +208,12 @@ nav li a:focus {
 
 /* -------------------------------------- HEADER --------------------------------------------- */
 
-header {
+/* header {
 	padding: 2.5em 0 2em 0;
+} */
+
+header {
+	padding: 1em 0;
 }
 
 img#largeheader {
@@ -306,7 +310,8 @@ h2#freelance a:focus {
 	padding: 0.6em 0 0.5em 0;
 }
 
-#about #biography p.maintext {
+#about #biography p.maintext,
+header p {
 	text-align: justify;
 	font-family: 'Cabin', sans-serif;
 	font-size: 1.2em;

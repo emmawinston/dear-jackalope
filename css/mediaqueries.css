@@ -277,20 +277,30 @@
 		display: none;
 	}
 
-	img#smallheader {
+	/* img#smallheader {
 		width: 20em;
 		max-width: 95%;
 		display: block;
 
 		margin: 0 auto;
+	} */
+
+	img#smallheader {
+		width: 10em;
+		display: block;
+		margin: 0 auto 20px auto;
 	}
 
-	header h2#emmawinston {
+	/* header h2#emmawinston {
 		max-width: 95%;
 		
 		font-size: 1.8em;
 
 		margin-top: 0.5em;
+	} */
+
+	header h2#emmawinston {
+		font-size: 1em;
 	}
 
 	header h2#freelance a {
@@ -392,9 +402,9 @@
 		margin: 0 auto;
 	}
 
-	img#smallheader {
+	/* img#smallheader {
 		width: 20em;
-	}
+	} */
 
 	header h2#emmawinston {
 		margin-top: 0.2em;
